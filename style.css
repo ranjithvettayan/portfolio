@@ -705,7 +705,7 @@ section .title::after {
 
 .right form .button-area button:hover {
   color: #1e3551;
-  background: none;
+  background: white;
   animation: pulsate 1s ease-in-out;
 }
 
