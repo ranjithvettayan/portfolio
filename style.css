@@ -211,7 +211,7 @@ section .title::after {
 /*  Home  */
 .home {
   display: flex;
-  background: url("bg2.png") no-repeat
+  background: url("home.jpg") no-repeat
     center;
   height: 100vh;
   color: #fff;
