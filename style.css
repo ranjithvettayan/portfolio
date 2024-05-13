@@ -253,7 +253,9 @@ section .title::after {
   -webkit-text-fill-color: transparent;
   font-weight: 500;
 }
-
+.right form .button-area button:hover {
+  color: #febf4f;
+}
 .home .home-content a {
   display: inline-block;
   background: #1e3551;
