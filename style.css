@@ -311,7 +311,7 @@ section .title::after {
 /* Linear Gradiant */
 .about .about-content .right .text span {
   /* color: #1e3551; */
-  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  background: linear-gradient(to right, #ff5f6d, #ffc371, #ff5f6d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -493,11 +493,11 @@ section .title::after {
 }
 
 .skills-content .right .html::before {
-  width: 80%;
+  width: 90%;
 }
 
 .skills-content .right .css::before {
-  width: 60%;
+  width: 90%;
 }
 
 .skills-content .right .js::before {
@@ -515,6 +515,7 @@ section .title::after {
 /*  Projects  */
 .projects .title::after {
   content: "What I did ?";
+  color: #febf4f;
 }
 
 .projects .carousel .card {
@@ -715,11 +716,9 @@ section .title::after {
 }
 
 .social-menu ul {
-  position: absolute;
-  left: 20%;
+  position: absolute;  
   padding: 0;
   margin: 0;
-  transform: translate(-50%, -50%);
   display: flex;
 }
 
