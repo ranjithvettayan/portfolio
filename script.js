@@ -104,3 +104,8 @@ const clickableDiv_3 = document.getElementById('new-4');
 clickableDiv_3.addEventListener('click', () => {
   window.open('https://ranjithvettayan.github.io/Food_Recipe/', '_blank');
 });
+const clickableDiv_4 = document.getElementById('new-5');
+
+clickableDiv_4.addEventListener('click', () => {
+  window.open('https://ranjithvettayan.github.io/portfolio/', '_blank');
+});
