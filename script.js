@@ -107,5 +107,5 @@ clickableDiv_3.addEventListener('click', () => {
 const clickableDiv_4 = document.getElementById('new-5');
 
 clickableDiv_4.addEventListener('click', () => {
-  window.open('https://ranjithvettayan.github.io/portfolio/', '_blank');
+  window.open('https://ranjithvettayan.github.io/resume-parser/', '_blank');
 });
