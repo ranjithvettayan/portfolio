@@ -1,0 +1,163 @@
+
+  <!-- <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+
+          <div class="text">Work</div>
+          <p>
+            <li class="intern">Vybog Afficate of Vysystems(As INTERNSHIP)</li>
+            <li class="intern">Vybog Afficate of Vysystems(As Employee)</li>
+          </p>
+
+          <br>
+          <div class="text">PROJECT</div>
+
+          <p>
+            <li class="project">Tailor Shop Website (HTML, CSS, JavaScript, SwiperJs)</li>
+            <li class="project">Cookie-House Website (HTML, CSS, JavaScript and Bootstrap)</li>
+            <li class="project">Insta_Drop Made with ReactJS with own API</li>
+            <li class="project">Foods Finder with API Call (HTML, CSS, Bootstraps)</li>
+            <li class="project">Verbicon Made with ReactJS with Huggingface API & TailwindCSS</li>
+            <li class="project">Resume Parser made by API Call (HTML, CSS, JavaScript)</li>
+          </p>
+
+          <br>
+          <div class="text">DEVELOPMENT SKILLS</div>
+
+          <p>
+            I'm familiar & work on a daily basis with HTML, CSS, JavaScript, Bootstrap, React js ,Wordpress, PHP, Python and Django.
+          </p>          
+        </div>
+        <div class="column right">          
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span>80%</span>
+            </div>
+            <div class="line js"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Jquery</span>
+              <span>80%</span>
+            </div>
+            <div class="line jquery"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>PHP</span>
+              <span>80%</span>
+            </div>
+            <div class="line php"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Python</span>
+              <span>80%</span>
+            </div>
+            <div class="line python"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>Django</span>
+              <span>70%</span>
+            </div>
+            <div class="line django"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  
+ /* Projects 
+.projects .title::after {
+  content: "What I did ?";
+  color: #febf4f;
+}
+
+.projects .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin: 0 20px 0 0;
+}
+
+.projects .carousel .card:hover {
+  background: #1e3551;
+}
+
+.projects .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.projects .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #888c8d;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover img {
+  border-color: #fff;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #888c8d !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: #18365a !important;
+} */

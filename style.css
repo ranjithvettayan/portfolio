@@ -400,193 +400,91 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
-/*  Skills  */
+  /* Skills Section */
 .skills {
-  background: radial-gradient(#e1efff, white);
-}
-.skills .title::after {
-  content: "—What I Know ?—";
-}
-
-.skills .skills-content .column {
-  width: calc(50% - 30px);
-}
-
-.skills .skills-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.skills .skills-content .left p {
-  text-align: justify;
-}
-
-.skills .skills-content .left a {
-  display: inline-block;
-  background: #1e3551;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 2px solid #1e3551;
-  transition: all 0.3s ease;
-}
-
-.skills .skills-content .left a:hover {
-  color: #1e3551;
-  background: none;
-  animation: pulsate 1s ease-in-out;
-}
-
-.intern,
-.project {
-  list-style: none;
-}
-
-.intern::before,
-.project::before {
-  content: "✪ ";
-  color: #1e3551;
-}
-
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
-
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
-}
-
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #1e3551;
-}
-
-.skills-content .right .php::before {
-  width: 80%;
-}
-
-.skills-content .right .wordpress::before {
-  width: 70%;
-}
-
-.skills-content .right .html::before {
-  width: 90%;
-}
-
-.skills-content .right .css::before {
-  width: 90%;
-}
-
-.skills-content .right .js::before {
-  width: 80%;
-}
-
-.skills-content .right .bootstraps::before {
-  width: 60%;
-}
-
-.skills-content .right .django::before {
-  width: 70%;
-}
-
-/*  Projects  */
-.projects .title::after {
-  content: "What I did ?";
-  color: #febf4f;
-}
-
-.projects .carousel .card {
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  margin: 0 20px 0 0;
 }
 
-.projects .carousel .card:hover {
-  background: #1e3551;
+.skills .title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e3551;
+  margin-bottom: 30px;
 }
 
-.projects .carousel .card .box {
+.skills .title::after {
+  content: "— Tools & Technologies —";
+  display: block;
+  font-size: 18px;
+  color: #1e3551;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  width: 100%;
+}
+
+.skills-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+.skills-content .category {
+  margin-bottom: 30px;
+}
+
+.skills-content .category .text {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e3551;
+  margin-bottom: 15px;
+}
+
+.skills-content .category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-content .category ul li {
+  display: inline-block;
+  margin: 10px 15px;
+  font-size: 18px;
+  color: #333;
+  background: #e1efff;
+  padding: 10px 20px;
+  border-radius: 6px;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.projects .carousel .card:hover .box {
-  transform: scale(1.05);
+.skills-content .category ul li:hover {
+  background-color: #1e3551;
+  color: #fff;
+  transform: translateY(-5px);
 }
 
-.projects .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
+.skills-content .category ul li i {
+  margin-right: 8px;
+  color: #1e3551;
 }
 
-.projects .carousel .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid #888c8d;
-  transition: all 0.3s ease;
+.skills-content .category ul li:hover i {
+  color: #fff;
 }
 
-.projects .carousel .card:hover img {
-  border-color: #fff;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills-content .category ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
 }
 
-.owl-dots {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.owl-dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 5px;
-  outline: none !important;
-  border-radius: 50%;
-  border: 2px solid #888c8d !important;
-  transition: all 0.3s ease;
-}
-
-.owl-dot.active {
-  width: 35px;
-  border-radius: 14px;
-}
-
-.owl-dot.active,
-.owl-dot:hover {
-  background: #18365a !important;
-}
 
 /*  Contact  */
 .contact {
@@ -892,14 +790,14 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
-  .owl-carousel.owl-loaded {
+  /* .owl-carousel.owl-loaded {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   .projects .carousel .card {
     margin: 0;
-  }
+  } */
 }
 
 @media (max-width: 690px) {
@@ -948,5 +846,131 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+}
+
+/* Projects Section Styles */
+.projects {
+  background-color: #0d0d0d; /* Dark background for a sleek look */
+  padding: 80px 0;
+}
+
+.projects .max-width {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects .title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #f0f0f0; /* Light text for good contrast on dark background */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.projects .title::after {
+  content: "Highlighted Works";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: #fdb827; /* Bright yellow accent */
+  padding: 5px 15px;
+  background: #0d0d0d; /* Match background */
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.projects .carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.projects .carousel .card {
+  width: calc(33.333% - 20px);
+  background: #1a1a1a; /* Dark gray card background */
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.projects .carousel .card:hover {
+  background: #00bcd4; /* Vibrant teal/blue on hover */
+  transform: translateY(-10px); /* Slight floating effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+}
+
+.projects .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.projects .carousel .card img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00bcd4; /* Teal border */
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card:hover img {
+  border-color: #fdb827; /* Yellow border on hover */
+}
+
+.projects .carousel .card .text {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: #f0f0f0; /* Light gray text for better readability */
+  transition: color 0.3s ease;
+}
+
+.projects .carousel .card:hover .text {
+  color: #0d0d0d; /* Dark text on hover when background turns teal */
+}
+
+.projects .carousel .card p {
+  color: #aaa; /* Lighter gray for paragraph text */
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.projects .carousel .card:hover p {
+  color: #0d0d0d; /* Dark text on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .projects .carousel .card {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 767px) {
+  .projects .carousel .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects .title {
+    font-size: 34px;
+  }
+  
+  .projects .title::after {
+    font-size: 16px;
   }
 }

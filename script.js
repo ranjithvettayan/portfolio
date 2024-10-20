@@ -97,7 +97,7 @@ clickableDiv_1.addEventListener('click', () => {
 const clickableDiv_2 = document.getElementById('new-3');
 
 clickableDiv_2.addEventListener('click', () => {
-  window.open('https://ranjithvettayan.github.io/calculator', '_blank');
+  window.open('https://ranjithvettayan.github.io/Insta_drop/', '_blank');
 });
 const clickableDiv_3 = document.getElementById('new-4');
 
@@ -108,4 +108,16 @@ const clickableDiv_4 = document.getElementById('new-5');
 
 clickableDiv_4.addEventListener('click', () => {
   window.open('https://ranjithvettayan.github.io/resume-parser/', '_blank');
+});
+
+const clickableDiv_5 = document.getElementById('new-6');
+
+clickableDiv_5.addEventListener('click', () => {
+  window.open('https://ranjithvettayan.github.io/Verbicon/', '_blank');
+});
+
+const clickableDiv_6 = document.getElementById('new-7');
+
+clickableDiv_6.addEventListener('click', () => {
+  window.open('https://insta-scarp.onrender.com/api/download/post', '_blank');
 });
